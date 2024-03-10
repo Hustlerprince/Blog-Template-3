@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post 6</title>
+  <link rel="stylesheet" href="./output.css">
+
+  <!-- fontAwesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- boxicon cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+    integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="container w-full mx-auto">
+    <nav class="w-10/12 lg:w-9/12 pt-10 mx-auto flex flex-row justify-between">
+      <!-- icons -->
+      <div class="icons w-1/3 hidden md:block">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube mr-2"></i>
+        <i class="fa-brands fa-linkedin mr-2"></i>
+        <i class="fa-brands fa-twitter mr-2"></i>
+        <i class="fa-brands fa-pinterest"></i>
+      </div>
+      <!-- logo -->
+      <div class="md:w-1/3">
+        <div class="flex justify-start md:justify-center">
+          <img src="./assets/asset 0.svg" class="w-10/12 md:w-auto" alt="logo">
+        </div>
+      </div>
+      <!-- side Icons -->
+      <div class="w-1/3 hidden md:block">
+        <div class="flex justify-end">
+          <img src="./assets/asset 16.svg" alt="search">
+        </div>
+      </div>
+      <!-- Hamburger Icon -->
+      <div class="mob-icon md:hidden">
+        <div class="bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <i class="fa-solid fa-chevron-down text-[16px] pl-1"></i> -->
+    <!-- mob-links -->
+    <div class="mob-li md:hidden flex flex-col text-center">
+      <ul class="text-lg m-5">
+        <li class="uppercase mb-2 focus:font-semibold"><a href="#">Home</a></li>
+        <li class="uppercase mb-2 focus:font-semibold"><a href="#">Pages</a>
+        </li>
+        <li class="uppercase mb-2 focus:font-semibold"><a href="#">Categories</a>
+        </li>
+        <li class="uppercase mb-2 focus:font-semibold"><a href="#">Contact</a></li>
+        <li class="uppercase mb-2 focus:font-semibold"><a href="#">Subscribe</a></li>
+      </ul>
+    </div>
+
+    <!-- Links -->
+    <div class="w-full mx-auto md:flex justify-center hidden">
+      <ul class="w-full text-lg md:pt-10 flex justify-center">
+        <li class="uppercase pr-9 hover:font-semibold"><a href="#">Home</a></li>
+        <li class="uppercase pr-9 hover:font-semibold"><a href="#">Pages <i
+              class="fa-solid fa-chevron-down text-[16px] pl-1"></i></a></li>
+        <li class="uppercase pr-9 hover:font-semibold"><a href="#">Categories <i
+              class="fa-solid fa-chevron-down text-[16px] pl-1"></i></a>
+        </li>
+        <li class="uppercase pr-9 hover:font-semibold"><a href="#">Contact</a></li>
+        <li class="uppercase pr-9 hover:font-semibold"><a href="#">Subscribe</a></li>
+      </ul>
+    </div>
+
+    <hr class="shadow-md mt-10">
+
+
+    <!-- Main Post Section -->
+
+    <!-- Image Section -->
+    <div class="w-full h-[90vh]">
+      <div class="overflow-hidden relative w-full h-[90vh]">
+        <img src="./assets/asset 7.jpeg" class="w-full h-full object-cover object-center" alt="computer">
+
+        <div class="absolute inset-0 top-[50%] md:ml-40 px-5 md:w-2/4 w-full">
+          <div class="flex flex-col">
+
+
+            <!-- tips -->
+            <div class="tip">
+              <h2 class="w-12 text-center text-slate-400 text-lg font-bold bg-white rounded-md mb-5 md:mb-10">TIPS</h2>
+            </div>
+
+            <!-- heading -->
+            <h1 class="text-2xl font-semibold text-gray-100 md:text-5xl">5 ways to improve your <div class="md:mt-4">digital product</div>
+            </h1>
+
+
+            <!-- author -->
+            <div class="author mt-5 text-white">
+              <div class="imgcon flex items-center text-base md:text-lg">
+                <div class="img-icon flex items-center">
+                  <img src="./assets/asset 1.jpeg" class="w-10 rounded-full" alt="author-img">
+                  <h2 class="text-center text-base pl-2 md:pl-0 md:text-xl rounded-md font-bold md:ml-3">John
+                    Carter</h2>
+                </div>
+                <div class="date flex">
+                  <div class="curr-date flex items-center">
+                    <i class="fa-regular fa-clock ml-5"></i>
+                    <div class="date">
+                      <div class="font-bold text-base md:text-xl">Feb 02, 2024</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- post article content -->
+
+    <div class="w-10/12 mx-auto md:px-10 ">
+      <!-- heading -->
+      <h1 class="text-xl text-center my-10 md:text-3xl font-semibold tracking-wide">Not getting distracted on Internet
+        is quite a challenge</h1>
+
+      <!-- para -->
+      <p class="text-lg leading-7 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe magni
+        consectetur placeat
+        quo illo quasi assumenda nemo nulla. Cum et recusandae delectus facilis qui nostrum temporibus assumenda impedit
+        repudiandae quasi corporis harum minus, dolor, corrupti voluptatibus dolores natus numquam ipsam maiores, omnis
+        consequuntur iste quo quidem laboriosam.</p>
+
+      <p class="text-lg leading-7 mb-10">In saepe eveniet fuga incidunt reiciendis cumque repudiandae voluptatem quo.
+        Iste quisquam vero ab beatae
+        consequatur, maxime minima, alias ut corporis et pariatur, quibusdam odit dolores? Iste, fuga expedita, earum
+        excepturi quidem sapiente dolorem reiciendis neque tenetur, libero maiores fugiat minima delectus perspiciatis
+        animi repudiandae totam iusto magni ea? Voluptas, molestias placeat.</p>
+
+      <p class="text-lg leading-7 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe magni
+        consectetur placeat
+        quo illo quasi assumenda nemo nulla. Cum et recusandae delectus facilis qui nostrum temporibus assumenda impedit
+        repudiandae quasi corporis harum minus, dolor, corrupti voluptatibus dolores natus numquam ipsam maiores, omnis
+        consequuntur iste quo quidem laboriosam.</p>
+
+      <p class="text-lg leading-7 mb-10">In saepe eveniet fuga incidunt reiciendis cumque repudiandae voluptatem quo.
+        Iste quisquam vero ab beatae
+        consequatur, maxime minima, alias ut corporis et pariatur, quibusdam odit dolores? Iste, fuga expedita, earum
+        excepturi quidem sapiente dolorem reiciendis neque tenetur, libero maiores fugiat minima delectus perspiciatis
+        animi repudiandae totam iusto magni ea? Voluptas, molestias placeat.</p>
+
+      <h2 class="text-xl md:text-2xl font-semibold tracking-wide">There are great tools to help you with that</h2>
+
+      <p class="text-lg leading-7 mt-5">In saepe eveniet fuga incidunt reiciendis cumque repudiandae voluptatem quo.
+        Iste quisquam vero ab beatae
+        consequatur, maxime minima, alias ut corporis et pariatur, quibusdam odit dolores? Iste, fuga expedita, earum
+        excepturi quidem sapiente dolorem reiciendis neque tenetur, libero maiores fugiat minima delectus perspiciatis
+        animi repudiandae totam iusto magni ea? Voluptas, molestias placeat.</p>
+
+      <div class="md:ml-10 ml-10 mt-5">
+        <ul class="list-decimal">
+          <li class="px-2 mb-4">Lobortis elit sit cum orci aenean consectetur augue morbi mi mattis hendrerit at
+            pretium.</li>
+          <li class="px-2 mb-4">Quis pharetra odio duis vitae felis fames lacus et nunc, at nibh est tortor
+            pellentesque.</li>
+          <li class="px-2 mb-4">Duis facilisis aliquet at lacus cras cras aliquam in velit imperdiet sapien in pharetra
+            quisque.</li>
+        </ul>
+      </div>
+
+      <h2 class="text-xl md:text-2xl font-semibold tracking-wide mt-10">3 great tools to block unwanted distractions
+      </h2>
+
+      <p class="text-lg leading-7 mt-5">In saepe eveniet fuga incidunt reiciendis cumque repudiandae voluptatem quo.
+        Iste quisquam vero ab beatae
+        consequatur, maxime minima, alias ut corporis et pariatur, quibusdam odit dolores? Iste, fuga expedita, earum
+        excepturi quidem sapiente dolorem reiciendis neque tenetur, libero maiores fugiat minima delectus perspiciatis
+        animi repudiandae totam iusto magni ea? Voluptas, molestias placeat.</p>
+
+
+      <!-- <quote>“At vitae elementum eu feugiat eleifend bibendum euismod ac purus feugiat consequat sed consequat mauris vitae adipiscing blandit integer nec quis nulla.”</quote> -->
+
+      <div class="w-full md:h-[140px] bg-gray-300 rounded-xl mt-5">
+
+        <blockquote class="text-lg leading-7 p-10 text-center">“At vitae elementum eu feugiat eleifend bibendum euismod
+          ac purus
+          feugiat consequat sed consequat mauris vitae adipiscing blandit integer nec quis nulla.”</blockquote>
+      </div>
+
+      <h2 class="text-xl md:text-2xl font-semibold tracking-wide mt-10">3 great tools to block unwanted distractions
+      </h2>
+
+      <p class="text-lg leading-7 mt-5 pb-10">In saepe eveniet fuga incidunt reiciendis cumque repudiandae voluptatem
+        quo.
+        Iste quisquam vero ab beatae
+        consequatur, maxime minima, alias ut corporis et pariatur, quibusdam odit dolores? Iste, fuga expedita, earum
+        excepturi quidem sapiente dolorem reiciendis neque tenetur, libero maiores fugiat minima delectus perspiciatis
+        animi repudiandae totam iusto magni ea? Voluptas, molestias placeat.</p>
+    </div>
+
+
+    <!-- block Box -->
+    <div class="w-full h-screen bg-[#121312] relative overflow-hidden">
+
+      <div class="subscribe flex flex-col justify-center items-center pt-10 md:pt-40 text-center">
+        <div class="h-auto">
+          <h2 class="text-2xl md:text-3xl font-bold text-white m-5 md:m-0">Subscribe to unlock premium content</h2>
+        </div>
+        <div class="para md:w-1/2 p-5 md:m-0 leading-7 text-gray-300 md:pt-5">
+          <p>Sed at tellus, pharetra lacus, aenean risus non nisl ultricies commodo diam aliquet arcu enim eu leo
+            porttitor habitasse adipiscing porttitor varius ultricies facilisis viverra lacus neque.</p>
+        </div>
+        <div class="card-con md:mt-10">
+          <div class="cards md:w-10/12 mx-auto">
+            <div class="post-img md:w-11/12 mx-auto gap-10 flex flex-col md:flex-row rounded-xl">
+              <div class="img m-5 md:m-0 relative shade">
+                <img src="./assets/asset 13.jpeg" class="rounded-xl" alt="laptop">
+                <div class="absolute bottom-10">
+                  <div class="tips text-left ml-5 font-bold text-white">TIPS</div>
+                  <div class="head text-xl font-bold text-white">A comprehensive guide onagile development</div>
+                </div>
+              </div>
+
+              <div class="img hidden md:block shade">
+                <img src="./assets/asset 14.jpeg" class="rounded-xl" alt="laptop">
+              </div>
+
+              <div class="img hidden md:block shade">
+                <img src="./assets/asset 15.jpeg" class="rounded-xl" alt="laptop">
+              </div>
+            </div>
+
+            <!-- unlock content -->
+            <a href="#subscribe" id="sub-btn">
+              <div class="w-full flex justify-center">
+                <div class="lock absolute top-[60%] p-5 rounded-xl bg-white border-white border-2 cursor-pointer">
+                  <div class="unlock flex items-center text-base md:text-lg font-semibold"><box-icon name='lock-alt'
+                      class="mr-2"></box-icon>Unlock content</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Subscribe -->
+    <div id="subscribe" class="subscribe w-full h-[50%] mb-20">
+      <div class="con flex justify-center">
+        <div class="subscribe flex flex-col justify-center items-center pt-10 md:pt-24 text-center">
+          <div class="h-auto">
+            <h2 class="text-xl md:text-2xl font-bold m-5 md:m-0">Subscribe to our newsletter
+            </h2>
+          </div>
+          <div class="para w-10/12 p-5 -mt-5 md:m-0 leading-7 md:pt-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus amet dui quam vitae quis leo velit
+              aliquam.</p>
+          </div>
+          <!-- Form -->
+          <div class="w-full flex justify-center">
+            <form id="form" action="#" class="w-full md:w-10/12 px-5 md:mx-0 flex flex-col sm:flex-row gap-y-5">
+              <input name="myEmail" type="text" name="email"
+                class="w-full mr-2 p-3 shadow-md rounded-lg hover:border border-2 bord"
+                placeholder="Enter your email address">
+              <button class="bg-black text-white font-bold py-3 px-6 text-lg rounded-lg">Subscribe</button>
+            </form>
+          </div>
+
+          <!-- icons -->
+          <div class="icons w-6/12 mt-10 hidden md:block">
+            <ul class="flex justify-around">
+              <i class="fa-brands fa-facebook-f cursor-pointer"></i>
+              <i class="fa-brands fa-youtube cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin cursor-pointer"></i>
+              <i class="fa-brands fa-twitter cursor-pointer"></i>
+              <i class="fa-brands fa-pinterest cursor-pointer"></i>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="border-t-2 w-9/12 mx-auto">
+      <p class="text-center font-light p-5">Copyright © 2024 | Designed With ❤️ by RahulKumar</p>
+    </footer>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+  </div>
+</body>
+
+</html>
